@@ -3,6 +3,7 @@
 import { render,screen } from "@testing-library/react"
 import CommentArea from "../components/CommentArea"
 
+
 describe("Mount correctly ComentsArea component", () =>{
     it ('render comments at lunch',async () =>{
         render(<CommentArea/>)

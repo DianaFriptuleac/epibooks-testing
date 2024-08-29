@@ -11,7 +11,7 @@ describe("Check if as many bootstrap cards are rendered as there are books in th
 
     const cardImage = await screen.findAllByRole("img");
     //controllo la lunghezza dell'array
-    expect(cardImage.length).toBeGreaterThan(0);
+    expect(cardImage.length).toBe(history.length);
   });
 
   //Verifico che il filtraggio dei libri tramite navbar
