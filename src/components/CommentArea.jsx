@@ -65,7 +65,7 @@ const changeUpdateCommentsList = () => {
 return (
   <div className="bg-light my-3">
     <h4 className="text-center pt-2">Commenti</h4>
-    <CommentList comments={comments} onDelete={deleteComment} data-testid="comments-list" />
+    <CommentList comments={comments} onDelete={deleteComment} />
     <AddComment asin={asin} changeUpdateCommentsList={changeUpdateCommentsList} />
   </div>
 );
