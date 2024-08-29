@@ -6,7 +6,7 @@ import MyFooter from './components/MyFooter';
 import Welcome from './components/Welcome';
 //import AllTheBooks from './components/AllTheBooks';
 //import SingleBook from './components/SingleBook';
-import fantasy from './assets/books/fantasy.json'
+import history from './assets/books/history.json'
 import BookList from './components/BookList';
 
 function App() {
@@ -26,7 +26,8 @@ function App() {
       {/*<AllTheBooks/>*/}
       {/*<SingleBook libro={fantasy[0]} />*/}
 
-      <BookList libri ={fantasy}/>
+      <BookList libri ={history}/>
+    
     </div>
     </main>
     <footer>
